@@ -1,5 +1,5 @@
 # ReX React UI Components Library
-## ReX React UI Component: rex-grid
+## ReX React UI Component: __COMPONENT_NAME__
 
 This project is part of ReX Design Language and it can be used to create React UI Components.   
 For more information visit:   
@@ -20,7 +20,7 @@ https://www.npmjs.com/org/rakuten-rex
 # How to install
 
 ```
-npm install rex-grid@1.2.0 --save
+npm install __COMPONENT_NAME__@__VERSION__ --save
 ```
 
 ## What you can do
@@ -32,7 +32,7 @@ The components are named as Container, Column and Row for an easy integration.
 
 For a complete guide of properties for React and HTML classes please visit the Storybook site:  
 
-https://rakuten-rex.github.io/rex-grid/
+https://rakuten-rex.github.io/__COMPONENT_NAME__/
 
 ### JavaScript modules
 
@@ -71,7 +71,7 @@ Example:
 
 ```js
 import 'rex-core/css'; // ReX Core dependency
-import 'rex-grid/css';
+import '__COMPONENT_NAME__/css';
 
 function MyComponent() {
   return (
@@ -98,18 +98,18 @@ For development mode:
 
 ```markdown
 <!-- ReX Core -->
-<link href="https://r.r10s.jp/com/rex/rex-core/1.4.0/rex-core.development.css" rel="stylesheet">
-<!-- rex-grid -->
-<link href="https://r.r10s.jp/com/rex/rex-grid/1.2.0/rex-grid.development.css" rel="stylesheet">
+<link href="https://r.r10s.jp/com/rex/rex-core/__REX_CORE_VERSION__/rex-core.development.css" rel="stylesheet">
+<!-- __COMPONENT_NAME__ -->
+<link href="https://r.r10s.jp/com/rex/__COMPONENT_NAME__/__VERSION__/__COMPONENT_NAME__.development.css" rel="stylesheet">
 ```
 
 For production mode:
 
 ```markdown
 <!-- ReX Core -->
-<link href="https://r.r10s.jp/com/rex/rex-core/1.4.0/rex-core.production.min.css" rel="stylesheet">
-<!-- rex-grid -->
-<link href="https://r.r10s.jp/com/rex/rex-grid/1.2.0/rex-grid.production.min.css" rel="stylesheet">
+<link href="https://r.r10s.jp/com/rex/rex-core/__REX_CORE_VERSION__/rex-core.production.min.css" rel="stylesheet">
+<!-- __COMPONENT_NAME__ -->
+<link href="https://r.r10s.jp/com/rex/__COMPONENT_NAME__/__VERSION__/__COMPONENT_NAME__.production.min.css" rel="stylesheet">
 ```
 
 Example: 
@@ -140,7 +140,7 @@ npm start
 
 ## How to build
 
-The build task will generate a NPM package ready to be published and also a static version of Storybook, one folder for NPM `./build/node_modules/rex-grid` and other one for Github pages `./docs`.   
+The build task will generate a NPM package ready to be published and also a static version of Storybook, one folder for NPM `./build/node_modules/__COMPONENT_NAME__` and other one for Github pages `./docs`.   
 
 ```
 npm run build
@@ -167,14 +167,14 @@ Build the project first.
 After that run the following commands:
 
 ```
-cd build/node_modules/rex-grid
+cd build/node_modules/__COMPONENT_NAME__
 npm login
 npm publish
 ```
 
 Once the process finish, take a look to the NPM site:   
 
-https://www.npmjs.com/package/rex-grid
+https://www.npmjs.com/package/__COMPONENT_NAME__
 
 ## How to test
 

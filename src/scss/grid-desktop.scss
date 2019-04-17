@@ -1,0 +1,9 @@
+@import "./mixins/grid-framework-desktop";
+
+// Columns
+//
+// Common styles for desktop
+
+@if $enable-grid-classes {
+  @include make-grid-columns-desktop();
+}

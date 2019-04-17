@@ -1,0 +1,1 @@
+{"version":3,"file":"main.022485880a77ec4bd17a.bundle.js","sources":["webpack:///./src/props/index.js"],"sourcesContent":["export { TYPE, DEFAULT_TYPE } from './type';\n"],"mappings":"AAAA","sourceRoot":""}
