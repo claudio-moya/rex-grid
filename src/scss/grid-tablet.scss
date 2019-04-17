@@ -1,0 +1,9 @@
+@import "./mixins/grid-framework-tablet";
+
+// Columns
+//
+// Common styles for tablet
+
+@if $enable-grid-classes {
+  @include make-grid-columns-tablet();
+}

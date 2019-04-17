@@ -1,0 +1,9 @@
+@import "./mixins/grid-framework-mobile";
+
+// Columns
+//
+// Common styles for mobile
+
+@if $enable-grid-classes {
+  @include make-grid-columns-mobile();
+}

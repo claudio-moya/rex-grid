@@ -1,0 +1,12 @@
+@import "scss/functions";
+@import "scss/variables";
+
+@import "scss/mixins/breakpoints";
+@import "scss/mixins/grid";
+
+@import "scss/grid";
+@import "scss/grid-tablet"; //screen size sm: 576px - md: 768px
+
+@import "scss/utilities/display";
+@import "scss/utilities/flex";
+@import "scss/utilities/spacing";
