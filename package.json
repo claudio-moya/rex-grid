@@ -1,6 +1,6 @@
 {
   "name": "rex-grid",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "ReX React UI Component",
   "main": "src/Grid.jsx",
   "scripts": {
