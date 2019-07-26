@@ -20,7 +20,7 @@ https://www.npmjs.com/org/rakuten-rex
 # How to install
 
 ```
-npm install rex-grid@1.2.0 --save
+npm install rex-grid@1.3.0 --save
 ```
 
 ## What you can do
@@ -100,7 +100,7 @@ For development mode:
 <!-- ReX Core -->
 <link href="https://r.r10s.jp/com/rex/rex-core/1.4.0/rex-core.development.css" rel="stylesheet">
 <!-- rex-grid -->
-<link href="https://r.r10s.jp/com/rex/rex-grid/1.2.0/rex-grid.development.css" rel="stylesheet">
+<link href="https://r.r10s.jp/com/rex/rex-grid/1.3.0/rex-grid.development.css" rel="stylesheet">
 ```
 
 For production mode:
@@ -109,7 +109,7 @@ For production mode:
 <!-- ReX Core -->
 <link href="https://r.r10s.jp/com/rex/rex-core/1.4.0/rex-core.production.min.css" rel="stylesheet">
 <!-- rex-grid -->
-<link href="https://r.r10s.jp/com/rex/rex-grid/1.2.0/rex-grid.production.min.css" rel="stylesheet">
+<link href="https://r.r10s.jp/com/rex/rex-grid/1.3.0/rex-grid.production.min.css" rel="stylesheet">
 ```
 
 Example: 
