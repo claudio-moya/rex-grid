@@ -40,26 +40,26 @@ $spacers: map-merge(
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
+  sm: 414px,
   md: 768px,
-  lg: 992px,
-  xl: 1200px
+  lg: 1024px,
+  xl: 1280px
 ) !default;
 
 $grid-breakpoints-mobile: (
   xs: 0,
-  sm: 576px,
+  sm: 414px,
   md: 768px
 ) !default;
 
 $grid-breakpoints-tablet: (
   md: 768px,
-  lg: 992px
+  lg: 1024px
 ) !default;
 
 $grid-breakpoints-desktop: (
-  lg: 992px,
-  xl: 1200px
+  lg: 1024px,
+  xl: 1280px
 ) !default;
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
@@ -71,10 +71,11 @@ $grid-breakpoints-desktop: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px
+  xs: 290px,
+  sm: 384px,
+  md: 696px,
+  lg: 936px,
+  xl: 1224px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -85,7 +86,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           30px !default;
+$grid-gutter-width:           24px !default;
 
 
 // Utilities
